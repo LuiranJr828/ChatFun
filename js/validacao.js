@@ -35,6 +35,7 @@ function validacao() {
 
     if(validador == 1) {
 
+        
         alert(`Seja bem-vindo, ` + username);
 
         // ABRE O CHAT
