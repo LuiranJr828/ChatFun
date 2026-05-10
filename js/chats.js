@@ -12,9 +12,34 @@ document.getElementById("usuarioLogado")
 
 const chats = {
 
-    chat1: [],
+    chat1: [ {
+            usuario: "Joao",
+            texto: "Vamos jogar um vavazinho?"
+        },
 
-    chat2: []
+        {
+            usuario: usuarioAtual,
+            texto: "Posso não, quero não!"
+        },
+        {
+            usuario: "Joao",
+            texto: "Então blz, quando puder avisa:)"
+        }
+    ],
+
+    chat2: [{
+            usuario: "Maria",
+            texto: "Lembra de fazer a sua parte do trabalho."
+        },
+
+        {
+            usuario: usuarioAtual,
+            texto: "Relaxa, ainda tem tempo."
+        },
+        {
+            usuario: "Maria",
+            texto: "Se você diz, né."
+        }]
 
 };
 
